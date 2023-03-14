@@ -93,13 +93,39 @@
     ],
     "python" : [
         {
+            "postTitle": "Ways to reverse a list in Python.",
+            "postLines": [
+                {"line": "Given the list:", "code": false},
+                {"line": "list = [1, 2, 3, 4],", "code": true},
+                {"line": "we can reverse it, depending on whether we just need to show the result or store the reversed list, differently.", "code": false},
+                {"line": "So, for example, we can tell Python to show the whole list - the [::] indexing without specifying neither the start nor the end - but in a reversed manner - the -1 parameter - as below:", "code": false},
+                {"line": "print(list[::-1])", "code": true},
+                {"line": "This will only show the reversed version of our list, but since print returns nothing, nothing will be stored.", "code": false}
+                {"line": "We would have to save it to a variable to store it for later.", "code": false},
+                {"line": "reversed_list = list[::-1]", "code": true}
+
+            ],
+            "postTags": "lists, reversion, reversed indexing, copying in Python",
+            "level": "easy",
+            "id": 0
+        },
+        {
             "postTitle": "Python Post",
             "postLines": [
                 {"line": "", "code": false},
                 {"line": "", "code": true}
             ],
             "postTags": "",
-            "id": 2
+            "id": 0
+        },
+        {
+            "postTitle": "Python Post",
+            "postLines": [
+                {"line": "", "code": false},
+                {"line": "", "code": true}
+            ],
+            "postTags": "",
+            "id": 0
         }
     ]  
   } 
